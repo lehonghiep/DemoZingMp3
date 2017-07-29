@@ -2,9 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/list_songs"
+        android:id="@+id/list_songs_offline"
         android:icon="@drawable/ic_default_album_dark"
-        app:showAsAction="always"
-        android:title="List Songs"
+        app:showAsAction="never"
+        android:title="Offline"
+        ></item>
+    <item
+        android:id="@+id/list_songs_online"
+        android:icon="@drawable/ic_default_album_dark"
+        app:showAsAction="never"
+        android:title="Online"
         ></item>
 </menu>
